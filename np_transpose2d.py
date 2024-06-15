@@ -446,7 +446,7 @@ if __name__ == "__main__":
     """
     K = bilinear_kernel( 3, 3, 4 )
 
-    x = plt.imread( "微信图片_20191207203405.jpg" )
+    x = plt.imread( "1.jpg" )
     H, W, C = x.shape
 
     x = x.reshape( (1, C, H, W) )
